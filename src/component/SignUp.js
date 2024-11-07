@@ -8,7 +8,7 @@ function SignUp() {
     const username = data.get("username");
     const password = data.get("password");
 
-    signin({ username: username, password: password }).then(
+    signup({ username: username, password: password }).then(
       (response) => {
         // 계정 생성 성공시 login으로 리디렉트
         window.location.href = "/login";

@@ -1,5 +1,5 @@
 import { Box, Typography, TextField, Button } from "@mui/material";
-import { signin } from "../service/ApiService";
+import { signup } from "../service/ApiService";
 
 function SignUp() {
   const handleSubmit = (e) => {
